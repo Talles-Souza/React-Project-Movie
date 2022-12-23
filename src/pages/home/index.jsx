@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../services/apiConnect";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 function Home() {
   const [movies, setMovies] = useState([]);
